@@ -2,8 +2,9 @@
 
 Smart Contract del Token BadgerCoin para obtener certificado de Web 3 Mastery
 
->>> BadgerCoin.sol
-'''
+**BadgeCoin.sol**
+
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -15,7 +16,7 @@ contract BadgerCoin is ERC20, Ownable {
           _mint(msg.sender,  1000000 * 10 ** decimals());
     }
 }
-'''
+```
 
 ## Transacción del contrato
 
